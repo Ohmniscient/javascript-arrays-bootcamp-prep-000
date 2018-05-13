@@ -9,4 +9,3 @@ function destructivelyAddElementToBeginningofArray(element, array) {
   return array
 }
 
-
