@@ -17,3 +17,25 @@ function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element)
   return array
 }
+
+function accessElementInArray(array, element) {
+  console.log(chocolateBars[2])
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array, element) {
+  array.shift()
+  return array
+}
+
+function removeElementFromBeginningOfArray(array, element) {
+  return array.slice(1)
+}
+
+function destructivelyRemoveElementFromEndOfArray(array, element) {
+  array.pop()
+}
+
+function removeElementFromEndOfArray(array, element) {
+  return array.slice(0, array.length -1)
+}
+
