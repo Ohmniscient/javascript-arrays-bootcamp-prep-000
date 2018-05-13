@@ -8,4 +8,3 @@ function destructivelyAddElementToBeginningofArray('1') {
   array.unshift(element)
   return array
 }
-
